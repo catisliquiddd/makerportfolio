@@ -50,22 +50,29 @@
 
  <!-- Intro Section with Parallax -->
 <section id="intro" class="min-h-screen flex flex-col items-center justify-center text-center p-6 pt-24 parallax" data-aos="fade-in">
-  <div class="bg-gray-900/70 p-6 rounded-lg shadow-xl">
-    <h1 class="text-4xl sm:text-6xl font-bold mb-4">
-      Greetings huzz, I am <span class="text-blue-400">Justin Kim</span>
-    </h1>
-    <p class="text-xl mb-6">wooo caption</p>
+  <div class="bg-gray-900/70 p-6 rounded-lg shadow-xl flex flex-col md:flex-row items-center justify-center gap-8">
+    <!-- Video Section -->
+    <div class="w-full md:w-2/3 flex justify-center">
+      <video class="w-full max-w-md rounded-lg shadow-lg mb-4" controls loading="lazy">
+        <source src="video1.mp4" type="video/mp4" />
+        Video 1
+      </video>
+    </div>
 
-    <video class="w-2/3 max-w-md rounded-lg shadow-lg mb-4" controls loading="lazy">
-      <source src="video1.mp4" type="video/mp4" />
-      Video 1
-    </video>
+    <!-- Text Section -->
+    <div class="w-full md:w-1/3 text-center md:text-left">
+      <h1 class="text-4xl sm:text-6xl font-bold mb-4">
+        Greetings huzz, I am <span class="text-blue-400">Justin Kim</span>
+      </h1>
+      <p class="text-xl mb-6">wooo caption</p>
 
-    <p class="text-gray-200 max-w-xl text-lg glass" data-aos="fade-up">
-      In 2020, my interest in engineering started when I made a rover to interact with my cats using a laser out of old toys and parts.
-    </p>
+      <p class="text-gray-200 max-w-xl text-lg glass" data-aos="fade-up">
+        In 2020, my interest in engineering started when I made a rover to interact with my cats using a laser out of old toys and parts.
+      </p>
+    </div>
   </div>
 </section>
+
 
   <!-- Media Gallery -->
   <section id="gallery" class="p-8 space-y-16">
